@@ -1,5 +1,6 @@
 import React from "react";
 import ResultCard from "@/components/result/Card";
+import ResultPanel from "@/components/result/Panel";
 
 const ResultPage = async (props: {
   searchParams?: Promise<{
@@ -26,7 +27,9 @@ const ResultPage = async (props: {
             state={"CA"}
           />
         </div>
-        <div className="md:basis-1/2 basis-full border-2 border-red-500"></div>
+        <div className="md:basis-1/2 basis-full border border-red-500">
+          <ResultPanel />
+        </div>
       </div>
     </div>
   );
