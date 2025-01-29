@@ -27,7 +27,7 @@ const ResultPage = async (props: {
             state={"CA"}
           />
         </div>
-        <div className="md:basis-1/2 basis-full border border-red-500">
+        <div className="md:basis-1/2 basis-full">
           <ResultPanel />
         </div>
       </div>

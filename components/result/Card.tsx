@@ -28,7 +28,7 @@ const ResultCard = (props: { street: string; city: string; state: string }) => {
           </div>
           <div className="basis-1/5">
             <Image
-              src={"/weather-icon/cloud-sun.svg"}
+              src={"/weather-icon/Mostly Clear.png"}
               width={50}
               height={50}
               alt="clima-scope"
